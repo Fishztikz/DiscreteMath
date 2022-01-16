@@ -1,0 +1,18 @@
+# Set/Univeral Set info from Module 1
+
+Chevrolet = ['Camaro', 'Corvette', 'Silverado', 'Corvair', 'Monte Carlo', 'Lumina', 'Chevelle']
+Ford = ['Mustang', 'GT', 'Thunderbird', 'Lightning', 'Talledega', 'Falcon']
+Dodge = ['Charger', 'Challenger', 'Viper', 'Ram SRT10', 'Dart', 'Neon', 'Coronet']
+
+SetofSets = [Chevrolet, Ford, Dodge]
+UniversalSet = []
+for brandSet in SetofSets:
+  for model in brandSet:
+    UniversalSet.append(model)
+    
+UniversalSet.append('Grand National')
+UniversalSet.append('Cougar')
+UniversalSet.append('300C')
+UniversalSet.append('Grand Cherokee Trackhawk')
+UniversalSet.append('Supra')
+set(UniversalSet)
